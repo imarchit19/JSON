@@ -1,5 +1,6 @@
-[
-  {
+{
+  "posts": [
+    {
     "userId": 1,
     "id": 1,
     "title": "delectus aut autem",
@@ -119,4 +120,12 @@
     "title": "ullam nobis libero sapiente ad optio sint",
     "completed": true
   }
-]
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
